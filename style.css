@@ -3,7 +3,11 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h1,
+h1 {
+    text-align: center;
+    color: rgb(154, 2, 2);
+}
+
 h3 {
     text-align: center;
     color: rgb(154, 2, 2);
@@ -15,6 +19,7 @@ ul,
 p,
 link {
     color: rgb(154, 2, 2);
+    margin: 50px;
 }
 
 img {
@@ -25,3 +30,14 @@ img {
     margin-right: auto;
 
 }
+
+.unorder {
+    margin: 40px;
+    padding: 50px;
+}
+
+.order {
+    margin: 40px;
+    padding: 50px;
+}
+
