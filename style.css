@@ -9,22 +9,26 @@ h1 {
 }
 
 h3 {
-    text-align: center;
     color: rgb(154, 2, 2);
     font-weight: 800;
+    margin-left: 40px;
 }
 
 ol,
 ul,
-p,
-link {
+p {
     color: rgb(154, 2, 2);
     margin: 50px;
 }
 
+p {
+    width: 500px;
+    margin-left: 20px
+}
+
 img {
     height: auto;
-    width: 250px;
+    width: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -34,10 +38,28 @@ img {
 .unorder {
     margin: 40px;
     padding: 50px;
+    list-style-type: none;
 }
 
 .order {
     margin: 40px;
     padding: 50px;
+}
+
+.links {
+    color: rgb(154, 2, 2);
+    border-style: outset;
+    width: 100px;
+    margin: 20px;
+    margin-left: 42%;
+    padding: 20px;
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+.odin {
+    margin: 100px;
+    padding-left: 50px;
 }
 
